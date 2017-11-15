@@ -1,0 +1,55 @@
+html,
+body,
+header,
+#home-section{
+
+	height: 100%;
+}
+
+#home-section{
+	background: url("../images/hao.gif") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	o-background-size: cover;
+}
+.dark-overlay{
+
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity:1.75;
+
+}
+.home-inner{
+	padding-top: 40px;
+}
+
+.red{
+	background: #FF0000;
+}
+
+.card{
+
+	width:300px;
+	height: 200px;
+	
+	margin-top: 100px;
+}
+.sell{
+	padding-left:200px;
+
+}
+.buy{
+	padding-left:100px; 
+
+
+}
+
+h1{
+	margin-top: 70px;
+}
